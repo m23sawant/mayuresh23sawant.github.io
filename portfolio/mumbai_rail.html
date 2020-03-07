@@ -69,14 +69,14 @@
 <h3 id="station-data">Station Data</h3>
 <p> For this project, we will need a list of all the stations in the Mumbai Suburban Railway. We&#39;ll get this data directly from <a href="https://en.wikipedia.org/wiki/List_of_Mumbai_Suburban_Railway_stations">Wikipedia</a>. 
 <figure>
-<img src="images/train/wiki_table.png" alt="# List of Mumbai Suburban Railway stations">
+<img src="images/train/wiki_table.PNG" alt="# List of Mumbai Suburban Railway stations">
   <figcaption><em>List of Mumbai Suburban Railway stations</em></figcaption>
 </figure>
 </p>
 <h3 id="station-location-data">Station Location Data</h3>
 <p> Location Data is unfortunately not a part of the wiki table. Hence we use geopy to fetch the latitudes and longitudes for each station. 
  <figure>
- <img src="images/train/geo_table.png" alt="# List of Stations with Coordinates">
+ <img src="images/train/geo_table.PNG" alt="# List of Stations with Coordinates">
    <figcaption><em>List of Stations with Coordinates</em></figcaption>
 </figure></p>
 <h3 id="venue-categories">Venue Categories</h3>
@@ -104,7 +104,7 @@
 <pre><code>{<span class="hljs-attr">"meta"</span>:{<span class="hljs-attr">"code"</span>:<span class="hljs-number">200</span>,<span class="hljs-attr">"requestId"</span>:<span class="hljs-string">"5e62346f71c428001be098eb"</span>},<span class="hljs-attr">"response"</span>:{<span class="hljs-attr">"warning"</span>:{<span class="hljs-attr">"text"</span>:<span class="hljs-string">"There aren't a lot of results near you. Try something more general, reset your filters, or expand the search area."</span>},<span class="hljs-attr">"headerLocation"</span>:<span class="hljs-string">"Thāne"</span>,<span class="hljs-attr">"headerFullLocation"</span>:<span class="hljs-string">"Thāne"</span>,<span class="hljs-attr">"headerLocationGranularity"</span>:<span class="hljs-string">"city"</span>,<span class="hljs-attr">"query"</span>:<span class="hljs-string">"arts entertainment"</span>,<span class="hljs-attr">"totalResults"</span>:<span class="hljs-number">0</span>,<span class="hljs-attr">"suggestedBounds"</span>:{<span class="hljs-attr">"ne"</span>:{<span class="hljs-attr">"lat"</span>:<span class="hljs-number">19.16825000900001</span>,<span class="hljs-attr">"lng"</span>:<span class="hljs-number">73.00801996144735</span>},<span class="hljs-attr">"sw"</span>:{<span class="hljs-attr">"lat"</span>:<span class="hljs-number">19.150249990999992</span>,<span class="hljs-attr">"lng"</span>:<span class="hljs-number">72.98900003855265</span>}},<span class="hljs-attr">"groups"</span>:[{<span class="hljs-attr">"type"</span>:<span class="hljs-string">"Recommended Places"</span>,<span class="hljs-attr">"name"</span>:<span class="hljs-string">"recommended"</span>,<span class="hljs-attr">"items"</span>:[]}]}}
 </code></pre>
 <p>The total number of venues in each category can then be added to our data frame. 
-<figure><img src="images/train/final_df.png" alt="enter image description here">
+<figure><img src="images/train/final_df.PNG" alt="enter image description here">
    <figcaption><em>Data Frame with Counts for each Venue Category</em></figcaption>
 </figure></p>
 <h3 id="exploratory-analysis">Exploratory Analysis</h3>
